@@ -1,6 +1,6 @@
 # News Sentiment App
 
-University project built with FastAPI.
+University project focused on REST API integration, automated testing and service communication.
 
 This repository contains the News part of a larger university project. The application receives a list of companies from another backend service, requests related articles from an external news API, evaluates article titles using positive and negative word lists, and exposes the results through REST endpoints and a simple web interface.
 
@@ -29,7 +29,7 @@ This repository contains the News part of a larger university project. The appli
 
 ## Project context
 
-The original assignment was split into multiple communicating parts. This repository contains the News service. The second backend service is not included in this repository and is contacted through its REST endpoint.
+This repository contains the News service from a larger university project. It communicates with a separate backend service through REST API to obtain company data.
 
 ## Testing
 
